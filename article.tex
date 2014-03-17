@@ -1,0 +1,51 @@
+% Test document for TinkerMill document styling.
+% Daniel Williams <dwilliams@port8080.net>
+
+% Command for compiling:
+% pdflatex article && pdflatex article
+
+% Use latexclasses/tinkermill if this is being included from the git as a submodule.
+\documentclass[letterpaper]{latexclasses/tinkermill}
+
+% Call the style file here.
+
+% This should generate lorum ipsum text for sampling.
+\usepackage{lipsum}
+
+% Some fake document info.
+%\title{Styling Test Document}
+%\author{TinkerMill}
+\renewcommand{\titleinfo}{Styling Test Document}
+
+% Here's the fake document.
+\begin{document}
+\maketitle
+
+% Revision table here?
+
+\newpage
+\tableofcontents
+
+\newpage
+
+\section{Alpha}
+
+\lipsum[1]
+
+\section{Bravo}
+
+\lipsum[2-3]
+
+\section{Charlie}
+
+\lipsum[4-5]
+
+\section{David}
+
+\lipsum[6-8]
+
+\section{Echo}
+
+\lipsum[9]
+
+\end{document}
