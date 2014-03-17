@@ -1,0 +1,3 @@
+[submodule "latexclasses"]
+	path = latexclasses
+	url = https://github.com/TinkerMill/latexclasses.git
